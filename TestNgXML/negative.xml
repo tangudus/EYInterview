@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="regressionTests" verbose="1">
+	<test name="regression Tests" preserve-order="true">
+	
+	<groups>
+		<run>
+			<include name="negative"></include>
+		</run>
+	</groups>
+
+		<!-- <packages> <package name="testcases" 
+			/> </packages> -->
+		<classes>
+			<class
+				name="testcases.LongestWord"></class>
+		</classes>
+	</test>
+</suite>
